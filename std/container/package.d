@@ -80,7 +80,7 @@ assert(array1.empty);
 
 // after initialization reference semantics work as expected
 array1 = array2;
-// now effects array2 as well
+// now affects array2 as well
 array1.removeBack();
 assert(array2.empty);
 ---
