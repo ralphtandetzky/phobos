@@ -48,7 +48,7 @@ assert(secondArray[0] == 12);
 // secondArray now refers to an independent copy of originalArray
 secondArray = originalArray.dup;
 secondArray[0] = 1;
-// assert that originalArray has not been effected
+// assert that originalArray has not been affected
 assert(originalArray[0] == 12);
 ---
 
